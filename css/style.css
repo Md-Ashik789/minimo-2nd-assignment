@@ -1,0 +1,169 @@
+/* font-family: 'Playfair Display', serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/* header part css start here  */
+header{
+
+width: 90%;
+
+overflow: hidden;
+
+margin: auto;
+
+margin-top: 40px;
+}
+.logo{
+    width: 20%;
+    float: left;
+
+}
+nav{
+    width: 50%;
+    float: right;
+}
+nav ul{
+
+list-style: none;
+}
+nav ul li{
+    float: left;
+    margin-left: 83px;
+    color: #626262;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+/* header part css end here  */
+
+.banner{
+    
+width: 90%;
+    
+margin: auto;
+}
+.banner img{
+    width: 100%;
+}
+.photodiary{
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+}
+.photodiary h1{
+    color: #626262;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.photodiary h6{
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.photodiary p{
+    color: #626262;
+    text-transform: none;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+.lifestyle{
+
+width: 80%;
+
+margin: auto;
+}
+.lifestyle-content{
+
+overflow: hidden;
+
+margin-bottom: 100px;
+}
+.lifestyle-one{
+
+width: 45%;
+
+float: left;
+}
+.lifestyle-one img, .lifestyle-two img{
+
+width: 100%;
+}
+.lifestyle-one h6, .lifestyle-two h6{
+
+text-transform: uppercase;
+
+font-size: 14px;
+
+color: #b4ad9e;
+
+margin: 20px 0;
+}
+.lifestyle-one h1, .lifestyle-two h1{
+
+font-size: 30px;
+
+text-transform: none;
+
+color: #626262;
+
+margin-bottom: 20px;
+}
+.lifestyle-one p, .lifestyle-two p{
+
+font-size: 14px;
+
+color: #626262;
+
+line-height: 1.5;
+
+letter-spacing: 1px;
+}
+.lifestyle-two{
+
+width: 45%;
+
+float: right;
+}
+
+.newsletter{
+
+background-color: #f0f0f0;
+
+padding: 50px;
+
+margin-bottom: 100px;
+}
+.news{
+
+width: 30%;
+
+margin: auto;
+
+position: relative;
+}
+.news h1{font-size: 31px;text-transform: none;color: #626262;margin-bottom: 50px;}
+.news input{
+border: none;
+background-color: transparent;
+border-bottom: 1px solid;
+width: 100%;
+outline: none;
+}
+.news input::placeholder{
+font-size: 14px;
+color: #626262;
+font-family: 'Playfair Display', serif;
+}
+.icon{
+    
+position: absolute;
+    
+right: 0;
+    
+bottom: 0;
+}
